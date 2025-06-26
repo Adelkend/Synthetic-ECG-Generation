@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15742786.svg)](https://doi.org/10.5281/zenodo.15742786)
+
 # Geração de Sinais de ECG Sintéticos para Aumento de Dados
 
 Este repositório contém artigos e materiais de pesquisa relacionados à geração de sinais de eletrocardiograma (ECG) sintéticos utilizando modelos de aprendizado de máquina. O objetivo principal é explorar técnicas de *data augmentation* para melhorar as métricas de classificação de arritmias cardíacas em bancos de dados desbalanceados.
