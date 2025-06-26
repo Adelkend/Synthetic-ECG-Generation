@@ -24,17 +24,7 @@ Os artigos neste repositório detalham o uso de diferentes modelos generativos e
 * **Métodos:** Um VAE foi utilizado para gerar os sinais, sendo o codificador e o decodificador compostos por redes MLP[cite: 68, 69]. O treinamento do VAE considerou uma combinação do erro quadrático médio e da divergência de Kullback-Leibler como função de custo[cite: 69]. Seis "templates" foram selecionados como representantes da classe S para verificar a variabilidade dos sinais[cite: 81]. Sinais gerados com uma distância DTW (dynamic time warping) acima de um limiar foram descartados[cite: 79, 86].
 * **Resultados Principais:** A expansão do banco de dados com sinais sintéticos da classe S resultou em uma melhora na taxa de acerto para a classe S (de 11% para 13%), classe N (de 78% para 80%), e classe F (de 3,2% para 11%)[cite: 83, 89]. A inclusão dos dados sintéticos reduziu significativamente o erro de classificação de sinais da classe S como pertencentes à classe F, passando de 9% para 0,5%[cite: 90, 91]. Isso demonstra o benefício do aumento de dados para a taxa de acerto da rede MLP[cite: 92].
 
-## Próximos Passos (Trabalhos Futuros)
+## Premiações recebidas
 
-Ambos os artigos indicam direções para pesquisas futuras:
-* Gerar sinais sintéticos para as classes menos representativas (como S, V e F) a fim de balancear o banco de dados por completo[cite: 19, 52, 94].
-* Retreinar a rede MLP com um banco de dados sintético balanceado e validar os resultados com dados reais[cite: 53].
-* Explorar configurações do VAE que possam levar a resultados de qualidade semelhantes aos da GAN, considerando o menor custo computacional do VAE[cite: 51].
-* Utilizar um modelo mais robusto para a geração de sinais e encontrar formas de gerar sinais mais variados dentro de uma mesma classe[cite: 93].
-
-## Financiamento
-
-Este trabalho foi financiado pelas seguintes agências de fomento:
-* CAPES (código de financiamento 001) [cite: 17]
-* CNPq (127301/2023-2, 303826/2022-3 e 404081/2023-1) [cite: 17]
-* FAPESP (2021/02063-6) [cite: 17]
+* Classificação de Sinais de ECG Sintéticos: Best Paper Undergraduate na área de processamento de sinais -- SBRT24
+* Geração de ECG Sintético com Autocodificador Variacional: Menção Honrosa -- SIICUSP32
