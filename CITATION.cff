@@ -1,0 +1,63 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite both the SBrT and the SIICUSP papers as listed below."
+authors:
+  - family-names: Jaqueira
+    given-names: Eduardo P. L.
+    email: eduardo.jaqueira@usp.br
+  - family-names: Candido
+    given-names: Renato
+    email: renatocan@lps.usp.br
+  - family-names: Silva
+    given-names: Magno T. M.
+    email: magno.silva@usp.br
+title: "Generative Models for Synthetic ECG Signal Generation"
+abstract: "This repository contains research materials on generating synthetic electrocardiogram (ECG) signals using generative adversarial networks (GANs) and variational autoencoders (VAEs) to improve the classification of cardiac arrhythmias. The papers included investigate using synthetic data for data augmentation to balance imbalanced datasets and enhance classification metrics of a multilayer perceptron (MLP) network."
+keywords:
+  - machine learning
+  - generative adversarial network
+  - variational autoencoder
+  - electrocardiogram
+  - ECG
+  - data augmentation
+  - arrhythmia classification
+  - deep learning
+  - signal processing
+version: 1.0.0
+date-released: 2025-06-25
+license: MIT
+references:
+  - authors:
+      - family-names: Jaqueira
+        given-names: Eduardo P. L.
+      - family-names: Candido
+        given-names: Renato
+      - family-names: Silva
+        given-names: Magno T. M.
+    title: "Classificação de sinais de ECG sintéticos"
+    type: conference-paper
+    collection-title: "Anais do XLII Simpósio Brasileiro de Telecomunicações e Processamento de Sinais (SBrT 2024)"
+    conference:
+      name: "XLII Simpósio Brasileiro de Telecomunicações e Processamento de Sinais (SBrT 2024)"
+      date-start: 2024-10-01
+      date-end: 2024-10-04
+      location:
+        city: Belém
+        state: PA
+        country: BR
+    date-released: 2024
+    pages: "1-2"
+    url: "https://www.renatocandido.org/2024/10/papers-in-sbrt-2024/" # (If a direct link to the PDF is not available, use the symposium's page)
+  - authors:
+      - family-names: Jaqueira
+        given-names: Eduardo P. L.
+      - family-names: Candido
+        given-names: Renato
+      - family-names: Silva
+        given-names: Magno T. M.
+    title: "Geração de ECG sintético com autocodificador variacional"
+    type: conference-paper
+    collection-title: "Anais do 32º Simpósio Internacional de Iniciação Científica e Tecnológica da USP (SIICUSP 2024)"
+    conference:
+      name: "32º Simpósio Internacional de Iniciação Científica e Tecnológica da USP (SIICUSP 2024)"
+    date-released: 2024
+    url: "https://uspdigital.usp.br/siicusp/" # (Provide a link to the event or proceedings page if a direct link to the paper isn't available)
